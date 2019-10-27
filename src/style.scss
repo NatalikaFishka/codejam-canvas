@@ -112,6 +112,12 @@ main {
         grid-column: 3 / 4;
         input {
             margin-right: 1rem;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        label:hover {
+            cursor: pointer;
         }
     }
 
